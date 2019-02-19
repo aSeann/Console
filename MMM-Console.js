@@ -1,6 +1,6 @@
 var Console;
 var logged = [];
-Module.register("Console", {
+Module.register("MMM-Console", {
   defaults: {
     lines: 10,
     colors: {
@@ -17,7 +17,7 @@ Module.register("Console", {
     }
   },
   getStyles: function(){
-    return ["Console.css"];
+    return ["MMM-Console.css"];
   },
   start: function(){
     Console = this;
