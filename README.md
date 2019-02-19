@@ -18,7 +18,7 @@ Installation is very simple, just clone the git into your modules directory then
 
 ```shell
 cd ~/MagicMirror/modules
-git clone https://github.com/aSeann/Console
+git clone https://github.com/aSeann/MMM-Console
 ```
 
 ## Using the module
@@ -28,7 +28,7 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
 			{
-				module: "Console",
+				module: "MMM-Console",
 				header: "Console Output",
 				position: "bottom_left",
 				config: {
